@@ -25,7 +25,14 @@
 				"variable",
 				"string constant.other.placeholder",
 				"variable.other.object.js",
+				"variable.other.object.ts",
 				"variable.language",
+				"keyword.control.import.js",
+				"keyword.control.import.ts",
+				"keyword.control.export.js",
+				"keyword.control.export.ts",
+				"keyword.control.from.js",
+				"keyword.control.from.ts",
 			],
 			"settings": {
 				"foreground": "#9B859D"
@@ -56,6 +63,9 @@
 				"keyword",
 				"storage.modifier",
 				"variable.language.this.js",
+				"variable.language.this.ts",
+				
+				
 			],
 			"settings": {
 				"foreground": "#1d80e4"
@@ -203,63 +213,42 @@
 
 
 
-		
 
 
 
 
 
-		// previous JS
-		{
-			"name": "Sub-methods",
-			"scope": [
-				"entity.name.module.js",
-				"variable.import.parameter.js",
-				"variable.other.class.js"
-			],
-			"settings": {
-				"foreground": "#cc0033"
-			}
-		},
-		{
-			"name": "Language methods",
-			"scope": [
-				"variable.language"
-			],
-			"settings": {
-				"fontStyle": "italic",
-				"foreground": "#cc0033"
-			}
-		},
-		{
-			"name": "entity.name.method.js",
-			"scope": [
-				"entity.name.method.js"
-			],
-			"settings": {
-				"fontStyle": "italic",
-				"foreground": "#cc0033"
-			}
-		},
-		{
-			"name": "meta.method.js",
-			"scope": [
-				"meta.class-method.js entity.name.function.js",
-				"variable.function.constructor",
-			],
-			"settings": {
-				"foreground": "#cc0033"
-			}
-		},
 
-		// CUSTOM JSo
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		// CUSTOM JS, TS
 		{
 			"name": "variables",
 			"scope": [
 				"meta.block variable.other",
 				"variable.other.readwrite.js",
+				"variable.other.readwrite.ts",
 				"meta.object-literal.key.js",
+				"meta.object-literal.key.ts",
 				"variable.parameter.js",
+				"variable.parameter.ts",
+				"variable.other.property.js",
+				"variable.other.property.ts",
+				"variable.object.property.js",
+				"variable.object.property.ts",
 			],
 			"settings": {
 				"fontStyle": "",
@@ -269,65 +258,82 @@
 		{
 			"name": "Strings",
 			"scope": [
-				"punctuation.definition.string.begin.js",
-				"string.quoted.double.js",
-				"punctuation.definition.string.end.js",
-				"punctuation.definition.string.template.begin.js",
+				"punctuation.definition.string.js",
+				"punctuation.definition.string.ts",
 				"string.template.js",
-				"punctuation.definition.string.end.begin.js",
+				"string.template.ts",
 			],
 			"settings": {
 				"foreground": "#afbfbf"
-			}
-		},
-		
-		{
-			"name": "blocks",
-			"scope": [
-				"meta.block.js",
-				"punctuation.definition.parameters.begin.js",
-				"punctuation.definition.parameters.end.js",
-				"meta.brace.round.js",
-				"meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js",
-				"punctuation.definition.template-expression.begin.js",
-				"punctuation.definition.template-expression.end.js",
-			],
-			"settings": {
-				"foreground": "#526996"
-			}
-		},
-		{
-			"name": "variable storage key",
-			"scope": [
-				"meta.var.expr.js",
-				"meta.class.js",
-			],
-			"settings": {
-				"fontStyle": "italic",
-				"foreground": "#526996"
-			}
-		},
-		
-		{
-			"name": "Assignments and operators",
-			"scope": [
-				"keyword.operator.assignment.js",
-				"keyword.operator.arithmetic.js"
-			],
-			"settings":{
-				"foreground": "#ffc168"
 			}
 		},
 		{
 			"name": "Punctuation . :",
 			"scope": [
 				"punctuation.separator.js",
+				"punctuation.separator.ts",
 				"punctuation.accessor.js",
+				"punctuation.accessor.ts",
 				"punctuation.separator.comma.js",
+				"punctuation.separator.comma.ts",
 				"punctuation.separator.key-value.js",
+				"punctuation.separator.key-value.ts",
+				"keyword.operator.type.annotation.ts"
 			],
 			"settings":{
 				"foreground": "#799ac4"
+			}
+		},
+		{
+			"name": "variable storage key",
+			"scope": [
+				"meta.var.expr.js",
+				"storage.type.class.js",
+				"storage.type.class.ts",
+			],
+			"settings": {
+				"fontStyle": "italic",
+				"foreground": "#526996"
+			}
+		},
+		{
+			"name": "blocks",
+			"scope": [
+				"meta.block.js",
+				"meta.block.ts",
+				"punctuation.definition.parameters.begin.js",
+				"punctuation.definition.parameters.end.js",
+				"punctuation.definition.parameters.begin.ts",
+				"punctuation.definition.parameters.end.ts",
+				"meta.brace.round.js",
+				"meta.brace.round.ts",
+				"meta.brace.square.js",
+				"meta.brace.square.ts",
+				"meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js",
+				"punctuation.definition.template-expression.begin.js",
+				"punctuation.definition.template-expression.end.js",
+				"meta.decorator.ts",
+				"punctuation.definition.block.js",
+				"punctuation.definition.block.ts",
+				"storage.type.function.js",
+				"storage.type.function.ts",
+				"punctuation.definition.typeparameters.begin.ts",
+				"punctuation.definition.typeparameters.end.ts",
+			],
+			"settings": {
+				"foreground": "#526996"
+			}
+		},
+		{
+			"name": "Assignments and operators",
+			"scope": [
+				"keyword.operator.assignment.js",
+				"keyword.operator.assignment.ts",
+				"keyword.operator.arithmetic.js",
+				"keyword.operator.arithmetic.ts",
+			],
+			"settings":{
+				"foreground": "#ffc168"
 			}
 		},
 		{
@@ -335,10 +341,15 @@
 			"scope": [
 				"entity.name",
 				"entity.name.function.js",
+				"entity.name.function.ts",
 				"meta.method.declaration.js",
+				"meta.method.declaration.ts",
 				"meta.function.expression.js",
+				"meta.function.expression.ts",
 				"keyword.control.flow.js",
-				"storage.type.function.arrow.js"
+				"keyword.control.flow.ts",
+				"storage.type.function.arrow.js",
+				"storage.type.function.arrow.ts"
 			],
 			"settings": {
 				"foreground": "#da8406"
@@ -348,7 +359,9 @@
 			"name": "Punctuation ;",
 			"scope": [
 				"punctuation.terminator.statement.js",
-				"meta.function-call.js"
+				"punctuation.terminator.statement.ts",
+				"meta.function-call.js",
+				"meta.function-call.ts",
 			],
 			"settings": {
 				"foreground": "#d25927"
@@ -357,9 +370,14 @@
 		{
 			"name": "primitives",
 			"scope": [
+				"support.type.primitive.js",
+				"support.type.primitive.ts",
 				"constant.numeric.decimal.js",
+				"constant.numeric.decimal.ts",
 				"constant.language.boolean.true.js",
+				"constant.language.boolean.true.ts",
 				"constant.language.boolean.false.js",
+				"constant.language.boolean.false.ts",
 			],
 			"settings": {
 				"foreground": "#ffc168"
@@ -376,16 +394,7 @@
 
 
 
-		{
-			"name": "NAME HERE",
-			"scope": [
-				"",
-			],
-			"settings": {
-				"foreground": "#000"
-			}
-		},
-
+		
 
 
 
