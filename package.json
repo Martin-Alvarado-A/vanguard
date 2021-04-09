@@ -1,0 +1,21 @@
+{
+    "name": "vanguard",
+    "displayName": "Vanguard",
+    "description": "A sublte color theme for VS Code",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.55.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Vanguard",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Vanguard-color-theme.json"
+            }
+        ]
+    }
+}
