@@ -1,9 +1,12 @@
 {
     "name": "vanguard",
     "displayName": "Vanguard",
-    "description": "A sublte color theme for VS Code",
-    "publisher": "martinoaa",
     "version": "0.0.1",
+    "publisher": "martinoaa",
+    "description": "A sublte color theme for VS Code",
+    "author": {
+        "name": "Martin O.A.A."
+    },
     "engines": {
         "vscode": "^1.55.0"
     },
@@ -18,5 +21,10 @@
                 "path": "./themes/Vanguard-color-theme.json"
             }
         ]
-    }
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Martin-Alvarado-A/vanguard.git"
+    },
+    "homepage": "https://github.com/Martin-Alvarado-A/vanguard/blob/main/README.md"
 }
