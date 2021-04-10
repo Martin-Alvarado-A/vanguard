@@ -2,6 +2,7 @@
     "name": "vanguard",
     "displayName": "Vanguard",
     "description": "A sublte color theme for VS Code",
+    "publisher": "martinoaa",
     "version": "0.0.1",
     "engines": {
         "vscode": "^1.55.0"

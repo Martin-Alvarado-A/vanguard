@@ -278,7 +278,7 @@
 				"punctuation.separator.comma.ts",
 				"punctuation.separator.key-value.js",
 				"punctuation.separator.key-value.ts",
-				"keyword.operator.type.annotation.ts"
+				"keyword.operator.type.annotation.ts",
 			],
 			"settings":{
 				"foreground": "#799ac4"
