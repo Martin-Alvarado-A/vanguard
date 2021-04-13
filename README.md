@@ -11,8 +11,17 @@ I was looking for a change of colors on my IDE and found that the vanguard color
 * CSS
 * HTML
 
-### Next on the table
-* JSX (maybe?)
-* Whatever Vue uses.
+### Preview
+
+<div style="display:flex;">
+  <img src="https://github.com/Martin-Alvarado-A/vanguard/blob/main/images/JS.png" alt="JavaScript" width="500">
+  <img src="https://github.com/Martin-Alvarado-A/vanguard/blob/main/images/HTML.png" alt="HTML" width="500">
+  <img src="https://github.com/Martin-Alvarado-A/vanguard/blob/main/images/CSS.png" alt="CSS/SCSS" width="500">
+  <img src="https://github.com/Martin-Alvarado-A/vanguard/blob/main/images/React.png" alt="React JS" width="500">
+  <img src="https://github.com/Martin-Alvarado-A/vanguard/blob/main/images/TS Angular.png" alt="TypeScript Angular" width="500">
+  <img src="https://github.com/Martin-Alvarado-A/vanguard/blob/main/images/HTML Angular.png" alt="HTML Angular" width="500">
+</div>
+
+
 
 **Enjoy!**
