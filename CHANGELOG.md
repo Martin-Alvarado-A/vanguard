@@ -4,6 +4,12 @@ All notable changes to the "vanguard" extension will be documented in this file.
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
-## [Unreleased]
+## [Released]
 
-- Initial release
+## [1.0.3] - 2021-04-13
+### Added
+- Images for Vs Code
+
+### Changed
+- path for icon and images
+- MD now points to images in MD language instead of html
