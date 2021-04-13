@@ -4,6 +4,7 @@
     "version": "1.0.1",
     "publisher": "martinoaa",
     "description": "A sublte color theme for VS Code",
+    "icon": "icon/themeIcon.png",
     "author": {
         "name": "Martin O.A.A."
     },
