@@ -1,10 +1,14 @@
 {
     "name": "vanguard",
     "displayName": "Vanguard",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "publisher": "martinoaa",
-    "description": "A sublte color theme for VS Code",
+    "description": "A desaturated color theme for VS Code",
     "icon": "images/themeIcon.png",
+    "galleryBanner": {
+        "color": "#526996",
+        "theme": "dark"
+    },
     "author": {
         "name": "Martin O.A.A."
     },
@@ -13,6 +17,13 @@
     },
     "categories": [
         "Themes"
+    ],
+    "keywords": [
+        "Dark",
+        "Black",
+        "Desaturated",
+        "Destiny2",
+        "Gamer"
     ],
     "contributes": {
         "themes": [
