@@ -14,10 +14,10 @@ I was looking for a change of colors on my IDE and found that the vanguard color
 ### Preview
 
 
-![JavaScript](./images/JS.PNG =100x20)
+![JavaScript](./images/JS.PNG)
 ![HTML](./images/HTML.PNG)
 ![CSS/SCSS](./images/CSS.PNG)
-![React JS](./images/ReactJS.PNG)
+![React JS](./images/React.PNG)
 ![TypeScript Angular](./images/TS-Angular.PNG)
 ![HTML Angular](./images/HTML-Angular.PNG)
 
