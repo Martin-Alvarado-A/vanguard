@@ -6,6 +6,12 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [Released]
 
+## [1.0.5] - 2021-04-21
+### Added
+- Images for Vs Code...again
+### Changed
+- Updated extension's vsCode engine reach
+
 ## [1.0.3] - 2021-04-13
 ### Added
 - Images for Vs Code

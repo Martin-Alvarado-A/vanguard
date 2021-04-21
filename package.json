@@ -1,7 +1,7 @@
 {
     "name": "vanguard",
     "displayName": "Vanguard",
-    "version": "1.0.4",
+    "version": "1.0.5",
     "publisher": "martinoaa",
     "description": "A desaturated color theme for VS Code",
     "icon": "images/themeIcon.png",
@@ -13,7 +13,7 @@
         "name": "Martin O.A.A."
     },
     "engines": {
-        "vscode": "^1.55.0"
+        "vscode": "^1.52.0"
     },
     "categories": [
         "Themes"
