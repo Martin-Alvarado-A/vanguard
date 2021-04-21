@@ -17,22 +17,22 @@ As I will be working on it further as I use and learn new languages, if you like
 
 
 ![JavaScript](./images/JS.PNG)
-<img src="https://github.com/Martin-Alvarado-A/vanguard/blob/main/images/JS.PNG?raw=true" alt="JavaScript" width="400">
+<img src="https://github.com/Martin-Alvarado-A/vanguard/blob/main/images/JS.PNG?raw=true" alt="JavaScript">
 
 ![HTML](./images/HTML.PNG)
-<img src="https://github.com/Martin-Alvarado-A/vanguard/blob/main/images/HTML.PNG?raw=true" alt="HTML" width="300">
+<img src="https://github.com/Martin-Alvarado-A/vanguard/blob/main/images/HTML.PNG?raw=true" alt="HTML" >
 
 ![CSS/SCSS](./images/CSS.PNG)
-<img src="https://github.com/Martin-Alvarado-A/vanguard/blob/main/images/CSS.PNG?raw=true" alt="CSS/SCSS" width="400">
+<img src="https://github.com/Martin-Alvarado-A/vanguard/blob/main/images/CSS.PNG?raw=true" alt="CSS/SCSS" >
 
 ![React JS](./images/React.PNG)
-<img src="https://github.com/Martin-Alvarado-A/vanguard/blob/main/images/React.PNG?raw=true" alt="React JS" width="400">
+<img src="https://github.com/Martin-Alvarado-A/vanguard/blob/main/images/React.PNG?raw=true" alt="React JS" >
 
 ![TypeScript Angular](./images/TS-Angular.PNG)
-<img src="https://github.com/Martin-Alvarado-A/vanguard/blob/main/images/TS-Angular.PNG?raw=true" alt="TypeScript Angular" width="400">
+<img src="https://github.com/Martin-Alvarado-A/vanguard/blob/main/images/TS-Angular.PNG?raw=true" alt="TypeScript Angular">
 
 ![HTML Angular](./images/HTML-Angular.PNG)
-<img src="https://github.com/Martin-Alvarado-A/vanguard/blob/main/images/HTML-Angular.PNG?raw=true" alt="HTML Angular" width="400">
+<img src="https://github.com/Martin-Alvarado-A/vanguard/blob/main/images/HTML-Angular.PNG?raw=true" alt="HTML Angular">
 
 
 **Enjoy!**
